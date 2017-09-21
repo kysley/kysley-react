@@ -1,7 +1,7 @@
 import React from 'react'
 // import SVG from 'react-svg-inline'
 
-const OffshoreClothing = () => (
+const Pollarity = () => (
   <div>
     <section className="container full">
       <div className="col-12-of-12">
@@ -11,4 +11,4 @@ const OffshoreClothing = () => (
   </div>
 )
 
-export default OffshoreClothing
+export default Pollarity

@@ -9,7 +9,7 @@ import Nav from './components/Nav'
 import Home from './pages/Home'
 // import About from './pages/About'
 // import Contact from './pages/Contact'
-// import Client from './pages/Client'
+import Project from './pages/Project'
 // import PageNotFound from './pages/PageNotFound'
 
 ReactDOM.render((
@@ -18,6 +18,7 @@ ReactDOM.render((
       <Nav />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/project/:slug" component={Project} />
       </Switch>
     </div>
   </Router>

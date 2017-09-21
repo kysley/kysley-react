@@ -15,15 +15,16 @@ export default class Index extends React.Component {
         <Header
           h1="Designer and Developer from the GTA"
           h2="I am a Software Engineering Student, Designer, and Developer. Currently creating beautiful web experiences."
+          span="Evan Kysley"
         />
         <section className="container">
-          <h3 className="col-1-of-1 headline fadeIn d-2">Selected Work</h3>
+          <h3 className="col-1-of-1 headline fadeIn d-2">Selected Works</h3>
         </section>
-        <section className="container projects">
+        <section className="container projects fadeInUp d-2">
           { allProjects.map((project) => {
             const className = {
               className: project.properties !== null
-                ? ['card fadeIn d-2', project.properties.className].join(' ') + project.slug
+                ? ['card', project.properties.className].join(' ') + project.slug
                 : `card ${project.slug}`,
             }
             const size = project.properties !== null ? 'large' : 'small'

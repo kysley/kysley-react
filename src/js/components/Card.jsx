@@ -8,8 +8,7 @@ const Card = ({ project, className, size }) =>
     {...className}
   >
     <Link
-    // {...className}
-      to={`/work/${project.slug}`}
+      to={`/project/${project.slug}`}
       key={project.name}
       style={{
         backgroundImage: `url(${require(`img/${project.slug}/feature-${size}.jpg`)})`,
