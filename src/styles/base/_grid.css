@@ -1,11 +1,11 @@
 @lost flexbox flex;
 
 .container {
-  lost-center: 1100px;
+  lost-center: 1440px;
   padding: 0 20px;
 
   &.small {
-    lost-center: 700px;
+    lost-center: 1100px;
   }
 
   &.full {
@@ -85,6 +85,10 @@
 
 .pull-4 {
   lost-offset: -4/12;
+}
+
+.push-1-of-12 {
+  lost-offset: 1/12;
 }
 
 @media (--mobile) {
