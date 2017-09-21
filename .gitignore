@@ -1,0 +1,4 @@
+node_modules/
+operations.graphcool
+project.graphcool
+dist/

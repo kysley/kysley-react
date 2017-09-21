@@ -1,0 +1,128 @@
+.contaniner.projects {
+  z-index: 1;
+}
+
+.projects {
+  margin: 32px auto 200px;
+  /* z-index: 1; */
+}
+
+.card {
+  display: flex;
+  background: var(--darkGray);
+  border-radius: 10px;
+  color: white;
+  height: 513px;
+  margin: 0 0 100px 0;
+  lost-column: 1/2;
+  lost-column-cycle: 3;
+  transform-style: preserve-3d;
+  transition: box-shadow .3s ease-out;
+
+  &:first-child {
+    lost-column: 1;
+  }
+
+  &:last-child {
+    lost-column: 1;
+  }
+
+  &.black {
+    color: var(--black);
+  }
+
+  &.half-size {
+    height: 300px;
+  }
+
+  a {
+    display: flex;
+    border-radius: 9px;
+    padding: 40px;
+    width: 100%;
+    background-size: 100%;
+    color: var(--black);
+
+    &:hover {
+      /* border: 0 solid transparent; */
+  }
+  }
+  div {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    transform: translateZ(30px);
+  }
+
+  h3 {
+    font-size: 2rem;
+    line-height: calc(1.5rem * 2rem);
+    font-family: var(--sansSerif);
+  }
+
+  h4 {
+    font-size: 1.375rem;
+    line-height: calc(1.5rem * 1.375rem);
+    font-family: var(--sansSerif);
+    font-weight: normal;
+    max-width: 512px;
+  }
+}
+
+.grup {
+  &:hover {
+          box-shadow:
+                    0 4px 4px rgba(0,0,0, .1),
+                    0 8px 8px rgba(0,0,0, .1),
+                    0 16px 16px rgba(0,0,0, .1),
+                    0 32px 32px rgba(0,0,0, .15),
+                    0 64px 64px rgba(0,0,0, .15);
+
+  }
+}
+.offshore {
+  &:hover {
+          box-shadow:
+                    0 4px 4px rgba(192,178,127, .1),
+                    0 8px 8px rgba(192,178,127, .1),
+                    0 16px 16px rgba(192,178,127, .1),
+                    0 32px 32px rgba(192,178,127, .15),
+                    0 64px 64px rgba(192,178,127, .15);
+
+  }
+}
+.opus {
+  a {
+    color: var(--white) !important;
+  }
+  &:hover {
+          box-shadow:
+                    0 4px 4px rgba(251,233,107, .1),
+                    0 8px 8px rgba(251,233,107, .1),
+                    0 16px 16px rgba(251,233,107, .1),
+                    0 32px 32px rgba(251,233,107, .15),
+                    0 64px 64px rgba(251,233,107, .15);
+
+  }
+}
+.tempest {
+  &:hover {
+          box-shadow:
+                    0 4px 4px rgba(255,132,124, .1),
+                    0 8px 8px rgba(255,132,124, .1),
+                    0 16px 16px rgba(255,132,124, .1),
+                    0 32px 32px rgba(255,132,124, .15),
+                    0 64px 64px rgba(255,132,124, .15);
+
+  }
+}
+
+@media (--mobile) {
+  .card {
+    lost-column: 1/1;
+  }
+
+  .card a {
+    padding: 20px;
+  }
+}
