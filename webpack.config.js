@@ -121,6 +121,9 @@ module.exports = {
     alias: {
       img: path.join(__dirname, 'src/img'),
       components: path.join(__dirname, 'src/js/components'),
+      clients: path.join(__dirname, 'src/js/clients'),
+      pages: path.join(__dirname, 'src/js/pages'),
+      utils: path.join(__dirname, 'src/js/utils'),
     },
   },
 
