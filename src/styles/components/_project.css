@@ -60,7 +60,7 @@
   blockquote {
     font-size: 2rem;
     line-height: 3rem;
-    font-family: var(--serif);
+    font-family: var(--sansSerif);
     text-align: center;
 
     span {

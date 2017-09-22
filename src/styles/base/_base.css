@@ -39,3 +39,11 @@ a {
     opacity: .5;
   }
 }
+
+.fourohfour {
+  font-family: var(--sansSerif);
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 0 auto;
+  margin-top: 34vh;
+}

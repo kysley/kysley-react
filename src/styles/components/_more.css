@@ -1,0 +1,17 @@
+.moreprojects {
+	padding-bottom: 5em;
+	span:hover {
+		color: var(--lightGray) !important;
+	}
+	a {
+		lost-align: center;
+		display: inline-block;
+		margin: 30px auto;
+		font-size: 1.5rem;
+	}
+	section {
+		&.grid-row {
+			width: 100%;
+		}
+	}
+}
