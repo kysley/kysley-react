@@ -10,7 +10,7 @@ import Home from './pages/Home'
 // import About from './pages/About'
 // import Contact from './pages/Contact'
 import Project from './pages/Project'
-// import PageNotFound from './pages/PageNotFound'
+import PageNotFound from './pages/PageNotFound'
 
 ReactDOM.render((
   <Router>
@@ -19,6 +19,7 @@ ReactDOM.render((
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/project/:slug" component={Project} />
+        <Route component={PageNotFound} />
       </Switch>
     </div>
   </Router>
