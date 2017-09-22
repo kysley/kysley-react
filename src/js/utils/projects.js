@@ -5,6 +5,7 @@ import OffshoreClothing from '../projects/OffshoreClothing'
 import Opus from '../projects/Opus'
 import Tempest from '../projects/Tempest'
 import Pollarity from '../projects/Pollarity'
+import Evanworks from '../projects/Evanworks'
 
 export default [
   {
@@ -21,6 +22,7 @@ export default [
     scope: 'PWA, , Modern Design',
     stack: 'React, React-Apollo, Graph.cool',
     website: 'https://pollarity.cool',
+    github: 'https://github.com/kysley/pollarity.cool',
   },
   {
     description:
@@ -37,6 +39,7 @@ export default [
     scope: 'PWA, Brutalist Design',
     stack: 'Express, Pug, MongoDB',
     website: 'https://grup.chat',
+    github: 'https://github.com/kysley/grup',
   },
   {
     description:
@@ -52,6 +55,7 @@ export default [
     scope: 'Web, E-Commerce, Clothing, Mordern Design',
     stack: 'JavaScript, HTML, CSS',
     website: 'http://offshore.kysley.com',
+    github: null,
   },
   {
     description:
@@ -67,6 +71,7 @@ export default [
     scope: 'Web, E-Commerce, Clothing, Mordern Design',
     stack: 'JavaScript, HTML, CSS',
     website: 'http://opus.kysley.com',
+    github: 'https://github.com/kysley/kysley-opus',
   },
   {
     description:
@@ -82,6 +87,7 @@ export default [
     scope: 'Web, Design',
     stack: 'JavaScript, HTML, CSS',
     website: 'http://kysley.com/tempest',
+    github: null,
   },
   {
     description:
@@ -89,7 +95,7 @@ export default [
     duration: '2017-Current',
     name: 'evan.works',
     logo: require('img/tempest/feature-large.jpg'),
-    loadComponent: createFactory(Tempest),
+    loadComponent: createFactory(Evanworks),
     order: 6,
     properties: { className: 'large opf-size ' },
     slug: 'evanworks',
@@ -97,6 +103,7 @@ export default [
     scope: 'Web, Brutalist design',
     stack: 'React, Express',
     website: 'http://evan.works',
+    github: 'https://github.com/kysley/evan.works',
   },
 ]
 export const moreProjects = [

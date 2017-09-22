@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import Detail from 'components/Detail'
 // import PrevNext from 'components/PrevNext'
 import allProjects from 'utils/projects'
-// import PageNotFound from '../pages/PageNotFound'
+import PageNotFound from '../pages/PageNotFound'
 
 export default class Project extends React.Component {
   static propTypes = {
@@ -23,10 +23,10 @@ export default class Project extends React.Component {
     name: '',
     description: '',
     duration: '',
-    location: '',
     scope: '',
     stack: '',
     website: '',
+    github: '',
     isLoading: 'fadeInUp',
   }
 
@@ -53,12 +53,10 @@ export default class Project extends React.Component {
       logo: project.logo,
       description: project.description,
       duration: project.duration,
-      location: project.location,
       scope: project.scope,
       stack: project.stack,
       website: project.website,
-      appstore: project.appstore,
-      playstore: project.playstore,
+      github: project.github,
       isLoading: 'fadeInUp',
     })
 
@@ -69,17 +67,17 @@ export default class Project extends React.Component {
     const {
       logo,
       duration,
-      location,
       scope,
       stack,
       website,
+      github,
       isLoading,
     } = this.state
 
     return (
       <div className={isLoading}>
         <section className="project-cover container">
-          <img src={logo} alt="Tempest Feature" />
+          <img src={logo} alt="Project Feature" />
         </section>
         <div className="project-overview">
           <section className="container">
@@ -91,10 +89,10 @@ export default class Project extends React.Component {
               <h3>Details</h3>
               <ul>
                 {duration && <Detail title="Duration" value={duration} text />}
-                {location && <Detail title="Location" value={location} text />}
                 {scope && <Detail title="Scope" value={scope} text />}
                 {stack && <Detail title="Stack" value={stack} text />}
                 {website && <Detail title="Website" value={website} link />}
+                {github && <Detail title="Github" value={github} link />}
               </ul>
             </div>
           </section>
@@ -102,7 +100,7 @@ export default class Project extends React.Component {
         <div>
           {/*{this.state.component()}*/}
         </div>
-        {/*<PrevNext allProjects={allProjects} projectId={this.state.order} />*/}
+        {/* <PrevNext allProjects={allProjects} projectId={this.state.order} />*/}
       </div>
     )
   }
