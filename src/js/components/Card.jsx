@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 
-const Card = ({ project, className, size }) =>
-  (<div
+const Card = ({ project, className, size }) => (
+  <div
     style={{ height: 613 }}
     {...className}
   >
@@ -21,7 +21,8 @@ const Card = ({ project, className, size }) =>
         <h4>{project.description}</h4>
       </div>
     </Link>
-  </div>)
+  </div>
+)
 
 Card.PropTypes = {
   project: PropTypes.shape({

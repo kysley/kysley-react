@@ -1,13 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Header = ({ h1, h2, span, children }) =>
-  (<header className="container header fadeInUp">
+const Header = ({ h1, h2, span, children }) => (
+  <header className="container header fadeInUp">
     <span>{span}</span>
     <h1>{h1}</h1>
     <h2>{h2}</h2>
     {children}
-  </header>)
+  </header>
+)
 
 Header.defaultProps = {
   h1: '',

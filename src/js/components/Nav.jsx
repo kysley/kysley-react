@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
-const Nav = () =>
-  (<nav>
+const Nav = () => (
+  <nav>
     <section className="container">
       {/*<Link to="/">
         <div className="top-nav-wrapper fixed">
@@ -37,6 +37,7 @@ const Nav = () =>
         <img className="logo" src="src/img/e-k-white.svg"/>
       </div> */}
     </section>
-  </nav>)
+  </nav>
+)
 
 export default Nav
