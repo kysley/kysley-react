@@ -33,6 +33,10 @@ const Nav = () => (
         <NavLink to="/about">About</NavLink>
         <NavLink to="/contact">Contact</NavLink>
       </div>
+      <div className="nav-rotate fadeInUp d-1 link-border">
+        <a className="github" href="#" exact>GitHub</a>
+        <a className="linkedin" href="#">LinkedIn</a>
+      </div>
       {/* <div className="right-nav-logo fadeIn d-8">
         <img className="logo" src="src/img/e-k-white.svg"/>
       </div> */}
