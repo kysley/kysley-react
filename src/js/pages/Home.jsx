@@ -38,6 +38,22 @@ export default class Index extends React.Component {
             )
           })}
         </section>
+        <div className="container moreprojects">
+          <h3 className="col-1-of-1 headline">More Works</h3>
+          <section className="grid-row">
+            {moreProjects.map(project =>
+              <span className="col-3-of-12" key={project.name}>
+                <a
+                  href={project.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {project.name}
+                </a>
+              </span>
+            )}
+          </section>
+        </div>
       </div>
     )
   }

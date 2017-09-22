@@ -108,35 +108,35 @@ export default [
 ]
 export const moreProjects = [
   {
-    img: 'crncy',
+    name: 'crncy',
     href: 'http://kysley.com/crncy',
   },
   {
-    img: 'notes',
+    name: 'notes',
     href: 'https://kysley.com/notes',
   },
   {
-    img: 'red&white',
+    name: 'red&white',
     href: 'http://kysley.com/redandwhite/index.html',
   },
   {
-    img: 'venttttttttttttt',
+    name: 'venttttttttttttt',
     href: 'http://grup.chat/vent',
   },
   {
-    img: 'colors',
+    name: 'colors',
     href: 'https://kysley.com/colors',
   },
   {
-    img: 'cl0ck',
+    name: 'cl0ck',
     href: 'http://kysley.com/clock',
   },
   {
-    img: 'moviedb',
+    name: 'moviedb',
     href: 'http://kysley.com/movie',
   },
   {
-    img: 'rgb/hex',
+    name: 'rgb/hex',
     href: 'http://kysley.com/rgbhex',
   },
 ]
