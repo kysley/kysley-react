@@ -1,0 +1,26 @@
+.header {
+	&.-about {
+		margin-bottom: 10vh;
+	}
+	&.-contact  {
+		margin-bottom: 10vh;
+	}
+}
+
+.profile p {
+	margin-bottom: 1em;
+	font-size: 1.275rem;
+	line-height: initial;
+}
+
+.c-react {
+	color: $react;
+}
+
+.c-vue {
+	color: $vue;
+}
+
+.c-angular {
+	color: $angular;
+}

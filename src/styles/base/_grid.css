@@ -87,8 +87,20 @@
   lost-offset: -4/12;
 }
 
-.push-1-of-12 {
+.push-1 {
   lost-offset: 1/12;
+}
+
+.push-2 {
+  lost-offset: 2/12;
+}
+
+.push-3 {
+  lost-offset: 3/12;
+}
+
+.push-4 {
+  lost-offset: 4/12;
 }
 
 @media (--mobile) {

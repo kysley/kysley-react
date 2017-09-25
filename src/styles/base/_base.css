@@ -40,6 +40,18 @@ a {
   }
 }
 
+.spotlight {
+  font-family: var(--sansSerifBold);
+}
+
+.spotlight__red {
+  color: $red;
+}
+
+.spotlight__purple {
+  color: $purple;
+}
+
 .fourohfour {
   font-family: var(--sansSerif);
   font-weight: 400;

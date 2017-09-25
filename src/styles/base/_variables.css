@@ -8,6 +8,15 @@
   src: url("../fonts/Theinhardt-Regular.woff");
 }
 
+$purple: #635eff;
+$blue: #78e3fd;
+$green: #5EFFC4;
+$red: #f25757;
+
+$react: rgb(97, 218, 251);
+$vue: rgb(65, 184, 131);
+$angular: rgb(226, 50, 55);
+
 :root {
   --black: #000000;
   --darkGray: #222;
