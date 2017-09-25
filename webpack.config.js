@@ -139,7 +139,7 @@ module.exports = {
     new ExtractTextPlugin(`styles/${chunkFile}.css`),
     new HtmlWebpackPlugin(htmlConfig),
     new HtmlWebpackPlugin(htmlConfig404),
-    new SitemapPlugin('http://pollarity.cool', routes),
+    new SitemapPlugin('http://kysley.com', routes),
   ] : [
     new webpack.optimize.ModuleConcatenationPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
@@ -148,6 +148,6 @@ module.exports = {
     new ExtractTextPlugin(`styles/${chunkFile}.css`),
     new HtmlWebpackPlugin(htmlConfig),
     new HtmlWebpackPlugin(htmlConfig404),
-    new SitemapPlugin('http://pollarity.cool', routes),
+    new SitemapPlugin('http://kysley.com', routes),
   ],
 }
