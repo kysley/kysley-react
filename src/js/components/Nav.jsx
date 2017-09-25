@@ -34,8 +34,8 @@ const Nav = () => (
         <NavLink to="/contact">Contact</NavLink>
       </div>
       <div className="nav-rotate fadeInUp d-1 link-border">
-        <a className="github" href="#" exact>GitHub</a>
-        <a className="linkedin" href="#">LinkedIn</a>
+        <a className="github" href="https://github.com/kysley" target="_blank">GitHub</a>
+        <a className="linkedin" href="https://www.linkedin.com/in/evankysley/" target="_blank">LinkedIn</a>
       </div>
       {/* <div className="right-nav-logo fadeIn d-8">
         <img className="logo" src="src/img/e-k-white.svg"/>
