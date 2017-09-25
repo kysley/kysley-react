@@ -40,7 +40,7 @@ export default class Index extends React.Component {
         </section>
         <div className="container moreprojects">
           <h3 className="col-1-of-1 headline">More Works</h3>
-          <section className="grid-row">
+          <section className="grid-row link-border">
             {moreProjects.map(project =>
               <span className="col-3-of-12" key={project.name}>
                 <a
