@@ -27,7 +27,7 @@ export default [
   {
     description:
       `A delightfully (work in progress) retro-styled combination
-       of HackerNews and Reddit. Temporarily Abonadoned.`,
+       of HackerNews and Reddit. Temporarily Abandoned.`,
     duration: '2017-Current',
     name: 'Grup',
     logo: require('img/grup/feature-large.jpg'),
@@ -59,7 +59,7 @@ export default [
   },
   {
     description:
-      `In Early 2017 I challenged myself to create something more.`,
+      'In Early 2017 I challenged myself to create something more.',
     duration: 'e2017-e2017',
     name: 'Opus.',
     logo: require('img/opus/feature-large.jpg'),
@@ -116,8 +116,8 @@ export const moreProjects = [
     href: 'https://kysley.com/notes',
   },
   {
-    name: 'red&white',
-    href: 'http://kysley.com/redandwhite/index.html',
+    name: 'white&red',
+    href: 'http://kysley.com/whiteandred/index.html',
   },
   {
     name: 'venttttttttttttt',
