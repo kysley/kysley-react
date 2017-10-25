@@ -76,7 +76,7 @@ export default class Project extends React.Component {
 
     return (
       <div className={isLoading}>
-        <section className="project-cover container">
+        <section className={`project-cover container ${this.state.name.toLowerCase()}`}>
           <img src={logo} alt="Project Feature" />
         </section>
         <div className="project-overview">
