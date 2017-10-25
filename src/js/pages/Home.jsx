@@ -50,7 +50,7 @@ export default class Index extends React.Component {
                 >
                   {project.name}
                 </a>
-              </span>
+              </span>,
             )}
           </section>
         </div>
