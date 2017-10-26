@@ -21,6 +21,25 @@ const htmlConfig404 = Object.assign({}, htmlConfig, {
 
 const routes = [
   '/',
+  '/about',
+  '/contact',
+  '/project/pollarity',
+  '/project/grup',
+  '/project/offshore',
+  '/offshoreclothing',
+  '/project/opus',
+  '/opus',
+  '/project/tempest',
+  '/tempest',
+  '/project/evanworks',
+  '/crncy',
+  '/colors',
+  '/notes',
+  '/cl0ck',
+  '/whiteandred',
+  '/moviedb',
+  '/rgbhex',
+  '/venttttttttttttt',
 ]
 
 module.exports = {
