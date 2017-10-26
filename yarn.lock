@@ -5754,10 +5754,6 @@ style-loader@^0.16.1:
   dependencies:
     loader-utils "^1.0.2"
 
-subdomain@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/subdomain/-/subdomain-1.2.0.tgz#d829abfe12f427a11b5b30b5dd0c052176c84551"
-
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
