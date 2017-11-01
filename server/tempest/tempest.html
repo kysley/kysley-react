@@ -1,11 +1,69 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>test</title>
-	<link href="1.css" rel="stylesheet"></link>
-</head>
-<body>
-tempest
-<script type="text/javascript" src="1.js"></script>
-</body>
+    <head>
+        <link rel="apple-touch-icon" sizes="57x57" href="weatherapp/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="weatherapp/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="weatherapp/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="weatherapp/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="weatherapp/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="weatherapp/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="weatherapp/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="weatherapp/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="weatherapp/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="weatherapp/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="weatherapp/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="weatherapp/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="weatherapp/favicon/favicon-16x16.png">
+        <link rel="manifest" href="weatherapp/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="weatherapp/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>Tempest Weather</title>
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700,inherit,400" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="../css/animsition.min.css">
+    </head>
+    <body>
+<!--         <div id="loader">
+            <ul id="loader">
+                <li></li>
+                <li></li>
+                <li></li>
+            <ul>
+        </div> -->
+        <div class="animsition">
+        <div class="container full">
+            <div class="row">
+                <div class="twelve columns">
+                    <input class="location-field" placeholder="Enter your location">
+
+        <div id="wrapper" class="hidden">
+            <ul class="temp-type">
+                <li><a id="c" href="javascript:;">&deg;C</a></li>
+                <li><a id="f" href="javascript:;">&deg;F</a></li>
+            </ul>
+
+            <div id="weatherly">
+                <div id="location"></div>
+
+                <div id="current">
+                    <div class="current-icon icon"></div>
+                    <div class="current-temp"></div>
+                </div>
+
+                <ul id="forecast" class="clear"></ul>
+            </div>
+        </div>
+
+        <div id="weather"></div>
+
+        <!-- <a href="http://kysley.com"><img class="logo" src="img/Eclear.png" alt="kysley.com"/></a> -->
+        </div>
+        </div>
+        </div>
+        </div>
+        <script src="../pack.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
+        <script src="js/weather2.js"></script>
+    </body>
 </html>

@@ -1,0 +1,131 @@
+@import "http://overpass-30e2.kxcdn.com/overpass.css";
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+ *{
+    font-family: 'Quicksand', sans-serif;
+ }
+body {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    background-color: #e3e3e3;
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    width: 100%;
+}
+
+.logo-link {
+	margin: 0 auto;
+	padding-top: 30px;
+	display: block;
+	width: 80px;
+    padding-right: 8px;
+}
+
+.outer {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    height: 90px;
+    position: absolute;
+    top: 40%;
+}
+
+input {
+    display: inline;
+    width: 275px;
+    font-size: 2rem;
+    line-height: 70px;
+    background: none;
+    border: none;
+    border-bottom: 1px dotted #1275d9;
+    padding: 8px 0;
+}
+
+input:first-child {
+    margin-right: 30px;
+    margin-left: -30px;
+}
+
+input:focus {
+    border-bottom-color: #1275d9;
+    outline: 0;
+}
+
+.light {
+    color: #222!important;
+}
+
+.light input {
+    color: #222!important;
+    border-bottom-color: #000;
+}
+
+.light input:focus {
+    border-bottom-color: #000;
+}
+
+.dark input {
+    color: #fff !important;
+    border-bottom-color: rgba(255,255,255,.4);
+}
+
+.dark input:focus {
+    border-bottom-color: #fff;
+}
+
+.image {
+    content: url("../img/Eclear_on_white.png");
+}
+.dark .image {
+    content: url("../img/Ewhite.png");
+}
+
+.dark ::-webkit-input-placeholder {
+    color: #fff !important;
+    text-align: center;
+}
+
+.dark :-moz-placeholder {
+    color: #fff !important;
+    text-align: center;
+}
+
+.dark ::-moz-placeholder {
+    color: #fff !important;
+    text-align: center;
+}
+
+.dark :-ms-input-placeholder {
+    color: #fff!important;
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    color: #222;
+    text-align: center;
+}
+
+:-moz-placeholder {
+    color: #222;
+    text-align: center;
+}
+
+::-moz-placeholder {
+    color: #222;
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    color: #222;
+    text-align: center;
+}
+
+/*@media screen and (max-width: 1024px) {
+    .wrapper {
+        left: 22.5%;
+    }
+}*/

@@ -1,0 +1,52 @@
+@import "http://overpass-30e2.kxcdn.com/overpass.css";
+body {
+  background: #fff;
+  margin: 0;
+}
+
+.dot {
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 20px;
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+  background-color: #000;
+}
+
+.dot.black {
+  background-color: #000;
+}
+
+.dot.white {
+  background-color: #fff;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Overpass',sans-serif;
+  font-weight: 200;
+  padding-left: -25px;
+}
+
+.clock div {
+  text-align: center;
+  width: 25%;
+  font-size: 15rem;
+}
+
+.clock.white {
+  background-color: #fff;
+  color: #000;
+}
+
+.clock.black {
+  background-color: #000;
+  color: #fff;
+}

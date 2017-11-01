@@ -1,0 +1,103 @@
+@import "http://overpass-30e2.kxcdn.com/overpass.css";
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+#note {
+  width: 70vw;
+  height: 68vh;
+  padding: 20px;
+  margin: 15px;
+  border: 0px;
+  margin-top: 10px;
+  border-radius: 2px;
+  font: 300 22px/1.5em 'Overpass',sans-serif;
+  background: #efefef;
+  color: black;
+  outline: none;
+  resize: none;
+}
+
+#privacy {
+  width: 70vw;
+  margin: 0;
+  padding: 0;
+  font: 300 22px/1.5em 'Overpass',sans-serif;
+  background: #transparent;
+  color: black;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-left: 60px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: left;
+  color: black;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: left;
+  color: black;
+  font-size: 1rem;
+  margin-top: -35px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.holder__privacy {
+  position: absolute;
+  color: #1275d9;
+  font: 300 22px/1.5em 'Overpass',sans-serif;
+  visibility: hidden;
+}
+
+.is-shown {
+  visibility: visible;
+}
+
+.holder {
+  text-align: center;
+}
+
+.holder__note {
+  display: inline-block;
+  color: #1275d9;
+  font: 300 22px/1.5em 'Overpass',sans-serif;
+}
+
+::selection {
+  background: #1275d9;
+  color: #FFFFFF;
+}
+
+::-moz-selection {
+  background: #1275d9;
+  color: #FFFFFF;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo-link {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-right: 8px;
+  display: block;
+  width: 80px;
+}
