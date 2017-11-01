@@ -108,35 +108,43 @@ export default [
 ]
 export const moreProjects = [
   {
-    name: 'crncy',
-    href: 'http://kysley.com/crncy',
+    name: 'quick-maths',
+    href: 'https://github.com/kysley/quick-maths',
   },
   {
-    name: 'notes',
-    href: 'https://kysley.com/notes',
+    name: 'minn',
+    href: 'https://github.com/kysley/minn',
+  },
+  {
+    name: 'minn-cli',
+    href: 'https://github.com/kysley/minn-cli',
+  },
+  {
+    name: 'keepsake',
+    href: 'http://kysley.com/keepsake',
   },
   {
     name: 'white&red',
-    href: 'http://kysley.com/whiteandred/index.html',
+    href: 'http://kysley.com/whiteandred',
   },
   {
     name: 'venttttttttttttt',
     href: 'http://grup.chat/vent',
   },
   {
-    name: 'colors',
-    href: 'https://kysley.com/colors',
-  },
-  {
     name: 'cl0ck',
     href: 'http://kysley.com/clock',
   },
   {
-    name: 'moviedb',
-    href: 'http://kysley.com/movie',
-  },
-  {
     name: 'rgb/hex',
     href: 'http://kysley.com/rgbhex',
+  },
+  {
+    name: 'retrofitcss',
+    href: 'https://github.com/kysley/retrofitcss',
+  },
+  {
+    name: 'mmbuddy',
+    href: 'https://github.com/kysley/mmbuddy',
   },
 ]
