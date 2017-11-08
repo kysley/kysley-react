@@ -1,5 +1,7 @@
 # React version of kysley.com
 
+##  (also contains past projects in /server/ hence the massive amount of html :unamused:)
+
 ### Package highlights:
 - react
 - react-router
