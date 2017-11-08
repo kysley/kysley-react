@@ -54,7 +54,7 @@ export default [
     role: 'Creator',
     scope: 'Web, E-Commerce, Clothing, Mordern Design',
     stack: 'JavaScript, HTML, CSS',
-    website: 'http://offshore.kysley.com',
+    website: 'http://kysley.com/offshoreclothing',
     github: null,
   },
   {
@@ -70,7 +70,7 @@ export default [
     role: 'Creator',
     scope: 'Web, E-Commerce, Clothing, Mordern Design',
     stack: 'JavaScript, HTML, CSS',
-    website: 'http://opus.kysley.com',
+    website: 'http://kysley.com/opus',
     github: 'https://github.com/kysley/kysley-opus',
   },
   {
