@@ -1,0 +1,551 @@
+@font-face {
+  font-family: "Bebas Neue Bold";
+  src: url("../Fonts/BebasNeue Bold.otf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue Bold";
+  overflow-x: hidden;
+}
+
+.alt-white-bg {
+  background: #FFFFFF !important;
+}
+
+.alt-white-txt {
+  color: #FFFFFF !important;
+}
+
+.alt-red-bg {
+  background: #D41C1C !important;
+}
+
+.alt-red-txt {
+  color: #D41C1C !important;
+}
+
+.alt-black-txt {
+  color: #000000 !important;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.section {
+  height: 150vh;
+  z-index: 1000;
+  background: #FFFFFF;
+}
+
+.holder {
+  height: 150vh;
+  width: 98vw;
+  background: #D41C1C;
+  margin: 0 auto;
+  display: block;
+}
+
+.menu__button {
+  left: 4em;
+  bottom: 1em;
+  width: 26px;
+  position: fixed;
+  background: transparent;
+  height: 26px;
+  z-index: 5001;
+  cursor: pointer;
+}
+
+.menu__button p {
+  left: 1.5em;
+  font-size: 1.3em;
+  color: #D41C1C;
+  position: absolute;
+  margin: 0;
+}
+
+.menu__button p:first-of-type {
+  left: -2.1em;
+  color: #FFFFFF;
+}
+
+.menu__block {
+  width: 10px;
+  height: 10px;
+  background: #000000;
+  z-index: 5001;
+  content: '';
+  position: absolute;
+  display: inline-block;
+}
+
+.menu__block:nth-child(1) {
+  margin-left: 15px;
+}
+
+.menu__block:nth-child(2) {
+  margin-top: 15px;
+}
+
+.menu__block:nth-child(3) {
+  margin-left: 0px;
+}
+
+.menu__block:nth-child(4) {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.menu__container {
+  backface-visibility: hidden;
+  position: fixed;
+  background: #FFFFFF;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  z-index: 5000;
+}
+
+.menu__container.open {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+.menu__content {
+  position: absolute;
+  left: 70vw;
+  width: 280px;
+  height: auto;
+  top: 25vh;
+  display: block;
+}
+
+.menu__content:nth-of-type(4) {
+  left: 45vw;
+}
+
+.menu__desc {
+  position: absolute;
+  left: 46vw;
+  width: 500px;
+  height: 100px;
+  top: 80vh;
+  display: inline-block;
+  text-align: center;
+}
+
+.menu__credit {
+  position: absolute;
+  left: 45vw;
+  width: 200px;
+  height: 300px;
+  top: 5vh;
+  display: inline-block;
+}
+
+p.role {
+  margin-left: -4vw;
+  /* margin-top: 0vh; */
+  top: 4.7vh;
+  position: absolute;
+  color: #ACACAC;
+  font-size: 1em;
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+}
+
+p.role:nth-of-type(3) {
+  margin-left: 11vw;
+  top: 4vh;
+  width: 60px;
+}
+
+p.desc {
+  position: absolute;
+  font-size: 1.5em;
+  color: #ACACAC;
+}
+
+p.person {
+  color: #D41C1C;
+  font-size: 1.5em;
+  display: block;
+  position: absolute;
+}
+
+p.person:nth-of-type(4) {
+  margin-left: 14.4vw;
+  top: .1vh;
+}
+
+p.person a {
+  color: #D41C1C;
+}
+
+.menu__link {
+  font-size: 3em;
+  margin: 0 auto;
+  color: #D41C1C;
+  display: block;
+  margin-bottom: .5em;
+}
+
+.menu__stripes {
+  position: relative;
+  margin-top: 24vh;
+  min-height: 76vh;
+  left: 10%;
+  max-width: 300px;
+  backface-visibility: hidden;
+  background: black;
+  background: repeating-linear-gradient(to right, #fff, #fff 10px, #D41C1C 10px, #D41C1C 20px);
+}
+
+.menu__stripes::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 99.9%;
+  left: 0;
+  min-height: 12.1vh;
+  width: 100%;
+  transform: skewX(-20deg);
+  transform-origin: 100% 100%;
+  backface-visibility: hidden;
+  background: repeating-linear-gradient(to right, #fff, #fff 10px, #D41C1C 10px, #D41C1C 20px);
+}
+
+.menu__stripes::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: calc(100% + 12vh);
+  left: 0;
+  min-height: 12vh;
+  width: 100%;
+  transform: skewX(20deg);
+  transform-origin: 0 0;
+  backface-visibility: hidden;
+  background: repeating-linear-gradient(to right, #fff, #fff 10px, #D41C1C 10px, #D41C1C 20px);
+}
+
+.holder__img {
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-width: 70vw;
+  max-height: 100vh;
+  display: inline;
+  position: absolute;
+  top: 40vh;
+  left: 14vw;
+}
+
+.holder__img.white-border {
+  border: 10px solid #FFFFFF;
+  border-radius: 3px;
+}
+
+.holder__img.red-border {
+  border: 10px solid #D41C1C;
+  border-radius: 3px;
+}
+
+h2.holder__name {
+  font-size: 5em;
+  position: absolute;
+  right: 1em;
+}
+
+h3.holder__number {
+  font-size: 3em;
+  color: #FFFFFF;
+  left: 5em;
+  position: absolute;
+  text-decoration: line-through;
+}
+
+h3.holder__time {
+  font-size: 2em;
+  color: #FFFFFF;
+  left: 4.5em;
+  position: absolute;
+}
+
+h4.holder__ll {
+  font-size: 1.5em;
+  position: absolute;
+  right: 3.4em;
+}
+
+.header {
+  height: 100vh;
+  background: #D41C1C;
+  z-index: 1;
+}
+
+.header.alt {
+  background: #FFFFFF;
+}
+
+h1 {
+  color: #000000;
+  position: absolute;
+  font-size: 10em;
+  display: inline-block;
+  z-index: 5;
+}
+
+h1._white {
+  top: .4em;
+  left: 2em;
+  color: #FFFFFF;
+}
+
+h1._and {
+  top: 2.3em;
+  left: 3em;
+  color: #D41C1C;
+}
+
+h1._red {
+  top: 3.5em;
+  left: 4em;
+  color: #FFFFFF;
+}
+
+.block {
+  display: inline-block;
+  height: 15vh;
+  width: 100vw;
+  position: absolute;
+  background: #FFFFFF;
+  content: '';
+}
+
+.block.alt {
+  background: #D41C1C;
+}
+
+.block._2 {
+  background: #FFFFFF;
+  top: 30vh;
+}
+
+.block._3 {
+  background: #FFFFFF;
+  top: 60vh;
+}
+
+.block._4 {
+  background: #FFFFFF;
+  top: 90vh;
+  height: 10vh;
+}
+
+@media only screen and (min-width: 1919px) and (max-width: 1921px) {
+  .menu__desc {
+    top: 80vh;
+    left: 47vw;
+  }
+  .menu__credit {
+    left: 54vw;
+  }
+  p.desc {
+    font-size: 2em;
+  }
+  p.role {
+    top: 1.4vh;
+    font-size: 3em;
+    margin-left: -4em;
+  }
+  p.role:nth-of-type(3) {
+    top: -1.4vh;
+    width: 200px;
+    margin-left: 8.3vw;
+  }
+  p.person {
+    font-size: 3em;
+    margin-left: -1.5em;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1170px) {
+  .holder__img {
+    max-width: 90vw;
+    max-height: 90vh;
+    width: 90vw;
+    left: 4vw;
+  }
+  .menu__link {
+    font-size: 3.5em;
+    margin-bottom: 1.3em;
+  }
+  .menu__credit {
+    left: 55vw;
+    zoom: 1.2;
+  }
+  .menu__desc {
+    top: 80vh;
+    left: 44vw;
+  }
+  p.desc {
+    font-size: 3em;
+  }
+  p.role {
+    top: 1.4vh;
+    font-size: 2em;
+    margin-left: -4.4em;
+  }
+  p.role:nth-of-type(3) {
+    top: -2.6vh;
+    width: 200px;
+    margin-left: 3.1vw;
+  }
+  p.person {
+    font-size: 2.5em;
+    margin-left: -1.5em;
+  }
+  .menu__credit {
+    left: 50vw;
+  }
+  h4.holder__ll {
+    font-size: 2em;
+    top: -1em;
+  }
+  h3.holder__time {
+    font-size: 2.5em;
+    left: 3em;
+  }
+  h3.holder__number {
+    left: 4em;
+    top: 1em;
+  }
+  .menu__buttom {
+    zoom: 1.5;
+  }
+  h1 {
+    color: #000000;
+    position: absolute;
+    font-size: 10em;
+    display: inline-block;
+  }
+  .holder {
+    height: 150vh;
+    width: 98vw;
+    background: #D41C1C;
+    margin: 0 auto;
+    display: block;
+  }
+  .section {
+    height: 150vh;
+    z-index: 1000;
+    background: #FFFFFF;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .holder__img {
+    top: 30vh;
+    max-height: 70vh;
+    max-width: 90vw;
+    width: 90vw;
+    left: 4vw;
+  }
+  .menu__content:nth-of-type(4) {
+    left: 42vw;
+  }
+  .menu__link {
+    font-size: 4.5em;
+    margin-bottom: 1.3em;
+  }
+  .menu__credit {
+    left: 55vw;
+    zoom: 1.2;
+  }
+  .menu__desc {
+    top: 80vh;
+    left: 44vw;
+  }
+  p.desc {
+    font-size: 3em;
+  }
+  p.role {
+    top: 1.4vh;
+    font-size: 3em;
+    margin-left: -4em;
+  }
+  p.role:nth-of-type(3) {
+    top: -.4vh;
+    width: 200px;
+    margin-left: 2vw;
+  }
+  p.person {
+    font-size: 3em;
+    margin-left: -1.5em;
+  }
+  h4.holder__ll {
+    font-size: 3em;
+    top: -2.5em;
+    right: 1em;
+  }
+  h3.holder__time {
+    font-size: 4em;
+    left: 2em;
+    top: -1.5em;
+  }
+  h3.holder__number {
+    font-size: 5em;
+    left: 1em;
+  }
+  .menu__button {
+    zoom: 1.7;
+  }
+  h1 {
+    color: #000000;
+    position: absolute;
+    font-size: 10em;
+    display: inline-block;
+  }
+  h1._white {
+    top: 1.2em;
+    left: 2em;
+    color: #FFFFFF;
+  }
+  h1._and {
+    top: 3.3em;
+    left: 3em;
+    color: #D41C1C;
+  }
+  h1._red {
+    top: 4.5em;
+    left: 4em;
+    color: #FFFFFF;
+  }
+  .holder {
+    height: 100vh;
+    width: 98vw;
+    background: #D41C1C;
+    margin: 0 auto;
+    display: block;
+  }
+  .section {
+    height: 100vh;
+    z-index: 1000;
+    background: #FFFFFF;
+  }
+}
