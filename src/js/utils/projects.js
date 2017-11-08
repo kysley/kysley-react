@@ -21,7 +21,7 @@ export default [
     role: 'Creator',
     scope: 'PWA, Modern Design',
     stack: 'React, React-Apollo, Graph.cool',
-    website: 'https://pollarity.cool',
+    website: 'http://pollarity.cool',
     github: 'https://github.com/kysley/pollarity.cool',
   },
   {
@@ -38,7 +38,7 @@ export default [
     role: 'Creator',
     scope: 'Web App, Brutalist Design',
     stack: 'Express, Pug, MongoDB',
-    website: 'https://grup.chat',
+    website: 'http://grup.chat',
     github: 'https://github.com/kysley/grup',
   },
   {
