@@ -10,7 +10,7 @@
   margin: 0 auto 75px !important;
   lost-column: 1/2 0 150px flex;
   transform-style: preserve-3d;
-  transition: box-shadow .3s ease-in-out, transform .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: box-shadow .4s cubic-bezier(0.37, 0.61, 0.1, .96), transform .4s cubic-bezier(0.37, 0.61, 0.1, .96);
 
   &:hover {
     transform: scale(0.98);
@@ -78,19 +78,19 @@
 .pollarity {
   box-shadow: 0px 14px 32px 13px rgba(94, 255, 196, 0.15);
   &:hover {
-    box-shadow: 0px 0px 32px 13px rgba(94, 255, 196, 0.15);
+    box-shadow: 0 14px 50px 5px rgba(94, 255, 196, 0.15);
   }
 }
 .grup {
   box-shadow: 0px 14px 32px 13px rgba(199, 199, 199, 0.4);
   &:hover {
-    box-shadow: 0px 0px 32px 13px rgba(199, 199, 199, 0.4);
+    box-shadow: 0 14px 50px 5px rgba(199, 199, 199, 0.4);
   }
 }
 .offshore {
   box-shadow: 0px 14px 32px 13px rgba(192, 178, 127, .15);
   &:hover {
-    box-shadow: 0px 0px 32px 13px rgba(192, 178, 127, .15);
+    box-shadow: 0 14px 50px 5px rgba(192, 178, 127, .15);
   }
 }
 .opus {
@@ -99,19 +99,19 @@
   }
   box-shadow: 0px 14px 32px 13px rgba(251, 233, 107, .2);
   &:hover {
-    box-shadow: 0px 0px 32px 13px rgba(251, 233, 107, .2);
+    box-shadow: 0 14px 50px 5px rgba(251, 233, 107, .2);
   }
 }
 .tempest {
   box-shadow: 0px 14px 32px 13px rgba(255, 132, 124, .1);
   &:hover {
-    box-shadow: 0px 0px 32px 13px rgba(255, 132, 124, .1);
+    box-shadow: 0 14px 50px 5px rgba(255, 132, 124, .1);
   }
 }
 .evanworks {
   box-shadow: 0px 14px 32px 13px rgba(99, 94, 255, .15);
   &:hover {
-      box-shadow: 0px 0px 32px 13px rgba(99, 94, 255, .15);
+      box-shadow: 0 14px 50px 5px rgba(99, 94, 255, .15);
   }
 }
 
