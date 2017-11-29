@@ -75,7 +75,7 @@ export default [
   },
   {
     description:
-      'A simple weather solution made to see todays forcast at a glance..',
+      'A simple weather solution made to see today\'s forecast at a glance..',
     duration: '2014-2015',
     name: 'Tempest',
     logo: require('img/tempest/feature-large.jpg'),

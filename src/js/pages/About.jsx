@@ -21,7 +21,7 @@ export default class About extends React.Component {
         <section className="container fadeInUp profile d-2">
           <div className="push-4 col-7-of-12 link-border">
             <p>
-              I am a designer/developer, but more importantly a creater of beautiful, interactive user
+              I am a designer/developer, but more importantly a creator of beautiful, interactive user
               experiences.
             </p>
             <p>
