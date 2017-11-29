@@ -14,7 +14,7 @@ export default class Index extends React.Component {
       <div>
         <Header
           h1="Designer and Developer from the GTA"
-          h2="I am a Software Engineering Student, Designer, and Developer. Currently creating beautiful web experiences."
+          h2="I am a Software Engineering Student, Designer, and Developer. Currently creating glamerous web experiences."
           span="Evan Kysley"
         />
         <section className="container">

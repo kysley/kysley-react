@@ -94,7 +94,7 @@ export default [
       'My brutalist portfolio, with <3',
     duration: '2017-Current',
     name: 'evan.works',
-    logo: require('img/tempest/feature-large.jpg'),
+    logo: require('img/evanworks/feature-large.jpg'),
     loadComponent: createFactory(Evanworks),
     order: 6,
     properties: { className: 'large opf-size ' },
